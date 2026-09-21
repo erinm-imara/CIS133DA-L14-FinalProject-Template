@@ -1,3 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#wrapper {
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+/*Header Styles*/
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+    font-size: 2.5em;
+}
+
 /*Navigation Bar Styles*/
 
 nav ul {
@@ -6,4 +34,37 @@ nav ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+nav .right {
+    background-color: #4CAF50;
+    color: white;
+    float: right;
+}
+
+nav a:hover {
+    background-color: #111;
+    color: white;
+}
+
+nav .active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+nav {
+    top: 0;
+    position: absolute;
+    width: 100%;
 }
