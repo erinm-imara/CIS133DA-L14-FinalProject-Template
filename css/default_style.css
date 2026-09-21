@@ -68,3 +68,25 @@ nav {
     position: absolute;
     width: 100%;
 }
+
+/* Main Styles */
+
+main {
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+}
+
+.intro-text {
+    align-items: center;
+}
+
+.dad {
+    height: auto;
+    width: 70%;
+}
