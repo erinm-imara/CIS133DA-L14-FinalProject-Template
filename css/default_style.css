@@ -67,8 +67,8 @@ nav a:hover {
 }
 
 nav .active {
-    background-color: darkolivegreen;
-    color: white;
+    background-color: yellow;
+    color: black;
 }
 
 /* Main Styles */
@@ -106,6 +106,74 @@ main {
     font-size: 0.9em;
     color: #555;
     margin-top: 5px;
+}
+
+/* Contact Page Styles */
+.contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: white;
+    color: #333;
+}
+
+.contact h2 {
+    font-family: 'Georgia', serif;
+    color: darkolivegreen;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    line-height: 1.6;
+}
+
+.contact-info {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 25px;
+    border-left: 5px solid darkolivegreen;
+}
+
+.contact-info a {
+    color: darkolivegreen;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    color: #333;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-group {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: darkolivegreen;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #333;
 }
 
 /* Footer Styles */
