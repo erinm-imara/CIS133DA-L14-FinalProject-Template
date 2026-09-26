@@ -108,6 +108,24 @@ main {
     margin-top: 5px;
 }
 
+/* Housing Page Styles */
+
+.housing h1{
+text-align: center;
+color: darkorange;
+}
+
+.housing-card {
+padding: 10px;
+width: 45%;
+margin: 10px;
+overflow: auto;
+display: inline-block;
+vertical-align: top;
+align-items: center;
+box-sizing: border-box;
+}
+
 /* Contact Page Styles */
 .contact {
     max-width: 800px;
