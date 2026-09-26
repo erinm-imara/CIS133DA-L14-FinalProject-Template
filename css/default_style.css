@@ -135,6 +135,35 @@ box-sizing: border-box;
     width: 50%;
 }
     
+/* Health Page Styles */
+
+.health {
+    max-width: 1100px;
+    margin: 0;
+    padding: 40px 20px 60px 20px;
+}
+
+.health h1 {
+text-align: center;
+color: darkorange;
+margin: 0;
+padding-bottom: 30px;
+}
+
+.health h3 {
+    font-family: Georgia, serif;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.hospital {
+    padding-bottom: 40px;
+    display: block;
+    margin: 0 auto 30px auto;
+    width: 50%;
+}
 
 /* Contact Page Styles */
 .contact {
