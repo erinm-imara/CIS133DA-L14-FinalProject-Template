@@ -113,6 +113,8 @@ main {
 .housing h1{
 text-align: center;
 color: darkorange;
+margin: 0;
+padding-bottom: 30px;
 }
 
 .housing-card {
@@ -125,6 +127,14 @@ vertical-align: top;
 align-items: center;
 box-sizing: border-box;
 }
+
+.housing-image {
+    padding-bottom: 40px;
+    display: block;
+    margin: 0 auto 30px auto;
+    width: 50%;
+}
+    
 
 /* Contact Page Styles */
 .contact {
